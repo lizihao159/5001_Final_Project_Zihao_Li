@@ -21,6 +21,7 @@ def import_csv_layout(path):
         for row in level:
             terrain_map.append(list(row))
     return terrain_map
+
 '''
 
 Then use another function to render each pixel at the specified position:
