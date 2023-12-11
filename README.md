@@ -1,9 +1,9 @@
 # 5001_Final_Project_Zihao_Li
 
-Student Name: Zihao Li
-Github Username: lizihao 159
-Semester: 2023 Fall
-Course: CS 5001
+# Student Name: Zihao Li
+# Github Username: lizihao 159
+# Semester: 2023 Fall
+# Course: CS 5001
 
 # Description
 
@@ -21,7 +21,7 @@ def import_csv_layout(path):
         for row in level:
             terrain_map.append(list(row))
     return terrain_map
-    """
+"""
 
 Then use another function to render each pixel at the specified position:
 
