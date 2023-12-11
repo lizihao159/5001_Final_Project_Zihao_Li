@@ -13,7 +13,7 @@ This is a platform jumping game, similar to Mario style. There are 6 levels in t
 
 I used a game level designer called Tiled to design the levels and exported the level files into .csv format data files. Then design corresponding functions to import the positions of platforms, enemies, and coins in the level:
 
-'''
+"""
 def import_csv_layout(path):
     terrain_map = []
     with open(path) as map:
@@ -21,8 +21,7 @@ def import_csv_layout(path):
         for row in level:
             terrain_map.append(list(row))
     return terrain_map
-
-'''
+    """
 
 Then use another function to render each pixel at the specified position:
 
